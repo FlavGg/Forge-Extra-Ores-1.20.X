@@ -1,0 +1,11 @@
+{
+  "item.extra_ores.platin_ingot": "Platin Ingot",
+  "item.extra_ores.raw_platin": "Raw Platin",
+  "item.extra_ores.platin_nugget": "Platin Nugget",
+  "item.extra_ores.platinium_sword": "Platinium Sword",
+
+  "block.extra_ores.platin_ore": "Platin Ore",
+  "block.extra_ores.deepslate_platin_ore": "Deepslate Platin Ore",
+
+  "creativetab.eo_tab": "Extra Ores"
+}
