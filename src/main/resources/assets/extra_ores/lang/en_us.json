@@ -2,10 +2,16 @@
   "item.extra_ores.platin_ingot": "Platin Ingot",
   "item.extra_ores.raw_platin": "Raw Platin",
   "item.extra_ores.platin_nugget": "Platin Nugget",
+
   "item.extra_ores.platinium_sword": "Platinium Sword",
+  "item.extra_ores.platinium_axe": "Platinium Axe",
+  "item.extra_ores.platinium_shovel": "Platinium Shovel",
+  "item.extra_ores.platinium_pickaxe": "Platinium Pickaxe",
+  "item.extra_ores.platinium_hoe": "Platinium Hoe",
 
   "block.extra_ores.platin_ore": "Platin Ore",
   "block.extra_ores.deepslate_platin_ore": "Deepslate Platin Ore",
+  "block.extra_ores.platin_block": "Platin Block",
 
   "creativetab.eo_tab": "Extra Ores"
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "platin_ingot",
+  "key": {
+    "#": {
+      "item": "extra_ores:platin_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "extra_ores:platin_block_item"
+  },
+  "show_notification": true
+}

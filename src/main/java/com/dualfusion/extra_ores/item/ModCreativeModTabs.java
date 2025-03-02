@@ -22,7 +22,12 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.PLATIN_NUGGET.get());
                         output.accept(ModItems.PLATIN_ORE_ITEM.get());
                         output.accept(ModItems.DEEPSLATE_PLATIN_ORE_ITEM.get());
+                        output.accept(ModItems.PLATIN_BLOCK_ITEM.get());
                         output.accept(ModItems.PLATINIUM_SWORD.get());
+                        output.accept(ModItems.PLATINIUM_PICKAXE.get());
+                        output.accept(ModItems.PLATINIUM_AXE.get());
+                        output.accept(ModItems.PLATINIUM_SHOVEL.get());
+                        output.accept(ModItems.PLATINIUM_HOE.get());
                     })
                     .build());
 
