@@ -20,8 +20,16 @@ public class ModItems {
     public static final RegistryObject<Item> PLATIN_NUGGET = ITEMS.register("platin_nugget",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> PLATIN_PICKAXE = ITEMS.register("platin_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.PLATIN, 1, -2.8F, new Item.Properties()));
+
+    public static final RegistryObject<Item> PLATINIUM_COMPONENT = ITEMS.register("platinium_component",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PLATINIUM_INGOT = ITEMS.register("platinium_ingot",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> PLATINIUM_SWORD = ITEMS.register("platinium_sword",
-            () -> new SwordItem(ModToolTiers.PLATINIUM,3, -2.4F, new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.PLATINIUM,3, -2.2F, new Item.Properties()));
     public static final RegistryObject<Item> PLATINIUM_AXE = ITEMS.register("platinium_axe",
             () -> new AxeItem(ModToolTiers.PLATINIUM, 5, -3F, new Item.Properties()));
     public static final RegistryObject<Item> PLATINIUM_SHOVEL = ITEMS.register("platinium_shovel",

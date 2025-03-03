@@ -16,4 +16,8 @@ public class ModToolTiers {
             new ForgeTier(4, 2684, 10f, 5f, 25,
                 ModTags.Blocks.NEEDS_PLATINIUM_TOOLS, () -> Ingredient.of(ModItems.PLATIN_INGOT.get())),
             new ResourceLocation(Extra_Ores.MOD_ID, "platinium"), List.of(Tiers.NETHERITE), List.of());
+    public static final Tier PLATIN = TierSortingRegistry.registerTier(
+            new ForgeTier(2, 764, 7f, 3f, 16,
+                    ModTags.Blocks.NEEDS_PLATIN_TOOLS, () -> Ingredient.of(ModItems.PLATIN_INGOT.get())),
+            new ResourceLocation(Extra_Ores.MOD_ID, "platin"), List.of(Tiers.IRON), List.of(Tiers.DIAMOND));
 }

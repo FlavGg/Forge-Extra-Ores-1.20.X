@@ -17,17 +17,20 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.PLATIN_INGOT.get()))
                     .title(Component.translatable("creativetab.eo_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.PLATIN_INGOT.get());
-                        output.accept(ModItems.RAW_PLATIN.get());
-                        output.accept(ModItems.PLATIN_NUGGET.get());
-                        output.accept(ModItems.PLATIN_ORE_ITEM.get());
-                        output.accept(ModItems.DEEPSLATE_PLATIN_ORE_ITEM.get());
-                        output.accept(ModItems.PLATIN_BLOCK_ITEM.get());
                         output.accept(ModItems.PLATINIUM_SWORD.get());
                         output.accept(ModItems.PLATINIUM_PICKAXE.get());
                         output.accept(ModItems.PLATINIUM_AXE.get());
                         output.accept(ModItems.PLATINIUM_SHOVEL.get());
                         output.accept(ModItems.PLATINIUM_HOE.get());
+                        output.accept(ModItems.PLATIN_PICKAXE.get());
+                        output.accept(ModItems.PLATIN_ORE_ITEM.get());
+                        output.accept(ModItems.DEEPSLATE_PLATIN_ORE_ITEM.get());
+                        output.accept(ModItems.RAW_PLATIN.get());
+                        output.accept(ModItems.PLATIN_BLOCK_ITEM.get());
+                        output.accept(ModItems.PLATIN_INGOT.get());
+                        output.accept(ModItems.PLATIN_NUGGET.get());
+                        output.accept(ModItems.PLATINIUM_INGOT.get());
+                        output.accept(ModItems.PLATINIUM_COMPONENT.get());
                     })
                     .build());
 

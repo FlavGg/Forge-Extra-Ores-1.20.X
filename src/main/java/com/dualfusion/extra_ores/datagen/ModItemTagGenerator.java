@@ -2,6 +2,7 @@ package com.dualfusion.extra_ores.datagen;
 
 import com.dualfusion.extra_ores.Extra_Ores;
 import com.dualfusion.extra_ores.item.ModItems;
+import com.dualfusion.extra_ores.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
@@ -22,7 +23,8 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
-        tag(ItemTags.PICKAXES).add(ModItems.PLATINIUM_PICKAXE.get());
+        tag(ItemTags.PICKAXES).add(ModItems.PLATINIUM_PICKAXE.get())
+                .add(ModItems.PLATIN_PICKAXE.get());
         tag(ItemTags.SWORDS).add(ModItems.PLATINIUM_SWORD.get());
         tag(ItemTags.AXES).add(ModItems.PLATINIUM_AXE.get());
         tag(ItemTags.SHOVELS).add(ModItems.PLATINIUM_SHOVEL.get());
