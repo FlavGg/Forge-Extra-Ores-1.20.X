@@ -38,13 +38,21 @@ public class ModItems {
             () -> new PickaxeItem(ModToolTiers.PLATINIUM, 1, -2.8F, new Item.Properties()));
     public static final RegistryObject<Item> PLATINIUM_HOE = ITEMS.register("platinium_hoe",
             () -> new HoeItem(ModToolTiers.PLATINIUM, -4, 0, new Item.Properties()));
+    public static final RegistryObject<Item> PLATINIUM_HELMET = ITEMS.register("platinium_helmet",
+            () -> new ArmorItem(ModArmorMaterials.PLATINIUM, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> PLATINIUM_CHESTPLATE = ITEMS.register("platinium_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.PLATINIUM, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> PLATINIUM_LEGGINGS = ITEMS.register("platinium_leggings",
+            () -> new ArmorItem(ModArmorMaterials.PLATINIUM, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> PLATINIUM_BOOTS = ITEMS.register("platinium_boots",
+            () -> new ArmorItem(ModArmorMaterials.PLATINIUM, ArmorItem.Type.BOOTS, new Item.Properties()));
 
 
-    public static final RegistryObject<BlockItem> PLATIN_ORE_ITEM = ITEMS.register("platin_ore_item",
+    public static final RegistryObject<BlockItem> PLATIN_ORE = ITEMS.register("platin_ore",
             () -> new BlockItem(ModBlocks.PLATIN_ORE.get(), new Item.Properties()));
-    public static final RegistryObject<BlockItem> DEEPSLATE_PLATIN_ORE_ITEM = ITEMS.register("deepslate_platin_ore_item",
+    public static final RegistryObject<BlockItem> DEEPSLATE_PLATIN_ORE = ITEMS.register("deepslate_platin_ore",
             () -> new BlockItem(ModBlocks.DEEPSLATE_PLATIN_ORE.get(), new Item.Properties()));
-    public static final RegistryObject<BlockItem> PLATIN_BLOCK_ITEM = ITEMS.register("platin_block_item",
+    public static final RegistryObject<BlockItem> PLATIN_BLOCK = ITEMS.register("platin_block",
             () -> new BlockItem(ModBlocks.PLATIN_BLOCK.get(), new Item.Properties()));
 
     public static void register(IEventBus eventBus) {

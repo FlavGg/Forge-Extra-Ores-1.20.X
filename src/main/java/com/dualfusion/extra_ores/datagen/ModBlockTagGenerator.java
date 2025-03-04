@@ -1,6 +1,8 @@
 package com.dualfusion.extra_ores.datagen;
 
 import com.dualfusion.extra_ores.Extra_Ores;
+import com.dualfusion.extra_ores.block.ModBlocks;
+import com.dualfusion.extra_ores.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -18,6 +20,16 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+
+        this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .add(ModBlocks.PLATIN_BLOCK.get())
+                .add(ModBlocks.PLATIN_ORE.get())
+                .add(ModBlocks.DEEPSLATE_PLATIN_ORE.get());
+
+        this.tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.PLATIN_BLOCK.get())
+                .add(ModBlocks.PLATIN_ORE.get())
+                .add(ModBlocks.DEEPSLATE_PLATIN_ORE.get());
 
     }
 }

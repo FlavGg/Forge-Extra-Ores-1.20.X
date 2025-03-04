@@ -29,5 +29,12 @@ public class ModItemTagGenerator extends ItemTagsProvider {
         tag(ItemTags.AXES).add(ModItems.PLATINIUM_AXE.get());
         tag(ItemTags.SHOVELS).add(ModItems.PLATINIUM_SHOVEL.get());
         tag(ItemTags.HOES).add(ModItems.PLATINIUM_HOE.get());
+
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.PLATINIUM_HELMET.get(),
+                        ModItems.PLATINIUM_CHESTPLATE.get(),
+                        ModItems.PLATINIUM_LEGGINGS.get(),
+                        ModItems.PLATINIUM_BOOTS.get());
+
     }
 }

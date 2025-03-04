@@ -8,6 +8,10 @@
   "item.extra_ores.platinium_shovel": "Platinium Shovel",
   "item.extra_ores.platinium_pickaxe": "Platinium Pickaxe",
   "item.extra_ores.platinium_hoe": "Platinium Hoe",
+  "item.extra_ores.platinium_helmet": "Platinium Helmet",
+  "item.extra_ores.platinium_chestplate": "Platinium Chestplate",
+  "item.extra_ores.platinium_leggings": "Platinium Leggings",
+  "item.extra_ores.platinium_boots": "Platinium Boots",
 
   "item.extra_ores.platinium_ingot": "Platinium Ingot",
   "item.extra_ores.platinium_component": "Platinium Component",
