@@ -23,6 +23,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.PLATIN_BLOCK.get())
+                .add(ModBlocks.PLATINIUM_BLOCK.get())
                 .add(ModBlocks.PLATIN_ORE.get())
                 .add(ModBlocks.DEEPSLATE_PLATIN_ORE.get());
 
@@ -30,6 +31,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.PLATIN_BLOCK.get())
                 .add(ModBlocks.PLATIN_ORE.get())
                 .add(ModBlocks.DEEPSLATE_PLATIN_ORE.get());
+
+        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.PLATINIUM_BLOCK.get());
 
     }
 }

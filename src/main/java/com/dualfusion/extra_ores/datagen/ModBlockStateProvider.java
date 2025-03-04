@@ -17,6 +17,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
 
         blockWithItem(ModBlocks.PLATIN_BLOCK);
+        blockWithItem(ModBlocks.PLATINIUM_BLOCK);
         blockWithItem(ModBlocks.PLATIN_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_PLATIN_ORE);
 

@@ -33,6 +33,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.PLATIN_BLOCK.get());
                         output.accept(ModItems.PLATIN_INGOT.get());
                         output.accept(ModItems.PLATIN_NUGGET.get());
+                        output.accept(ModItems.PLATINIUM_BLOCK.get());
                         output.accept(ModItems.PLATINIUM_INGOT.get());
                         output.accept(ModItems.PLATINIUM_COMPONENT.get());
                     })

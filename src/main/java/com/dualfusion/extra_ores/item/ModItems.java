@@ -54,6 +54,8 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.DEEPSLATE_PLATIN_ORE.get(), new Item.Properties()));
     public static final RegistryObject<BlockItem> PLATIN_BLOCK = ITEMS.register("platin_block",
             () -> new BlockItem(ModBlocks.PLATIN_BLOCK.get(), new Item.Properties()));
+    public static final RegistryObject<BlockItem> PLATINIUM_BLOCK = ITEMS.register("platinium_block",
+            () -> new BlockItem(ModBlocks.PLATINIUM_BLOCK.get(), new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

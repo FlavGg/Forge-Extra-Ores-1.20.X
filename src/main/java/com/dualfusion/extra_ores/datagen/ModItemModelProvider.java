@@ -50,6 +50,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.PLATIN_PICKAXE);
 
         simpleItem(ModItems.PLATINIUM_INGOT);
+        simpleItem(ModItems.PLATINIUM_COMPONENT);
 
         handheldItem(ModItems.PLATINIUM_SWORD);
         handheldItem(ModItems.PLATINIUM_PICKAXE);
@@ -58,6 +59,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.PLATINIUM_HOE);
 
         evenSimplerBlockItem(ModBlocks.PLATIN_BLOCK);
+        evenSimplerBlockItem(ModBlocks.PLATINIUM_BLOCK);
         evenSimplerBlockItem(ModBlocks.PLATIN_ORE);
         evenSimplerBlockItem(ModBlocks.DEEPSLATE_PLATIN_ORE);
 

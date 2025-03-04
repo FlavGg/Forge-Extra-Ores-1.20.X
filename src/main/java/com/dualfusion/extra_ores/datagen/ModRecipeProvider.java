@@ -153,6 +153,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.PLATIN_INGOT.get()), has(ModItems.PLATIN_INGOT.get()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PLATINIUM_BLOCK.get())
+                .pattern("SSS")
+                .pattern("SSS")
+                .pattern("SSS")
+                .define('S', ModItems.PLATINIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.PLATINIUM_INGOT.get()), has(ModItems.PLATINIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PLATINIUM_INGOT.get(), 9)
+                .requires(ModBlocks.PLATINIUM_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.PLATINIUM_BLOCK.get()), has(ModBlocks.PLATINIUM_BLOCK.get()))
+                .save(pWriter, "extra_ores:platin_ingot_from_block");
+
         SmithingTransformRecipeBuilder.smithing(Ingredient.of(ModItems.PLATINIUM_COMPONENT.get()),
                 Ingredient.of(ModItems.PLATIN_INGOT.get()),
                 Ingredient.of(Items.GOLD_INGOT), RecipeCategory.MISC,
