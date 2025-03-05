@@ -1,27 +1,36 @@
 {
   "item.extra_ores.platin_ingot": "Platin Ingot",
-  "item.extra_ores.raw_platin": "Raw Platin",
   "item.extra_ores.platin_nugget": "Platin Nugget",
+  "item.extra_ores.raw_platin": "Raw Platin",
+
+  "item.extra_ores.platinium_ingot": "Platinium Ingot",
+  "item.extra_ores.platinium_nugget": "Platinium Nugget",
+  "item.extra_ores.platinium_component": "Platinium Component",
+
+  "block.extra_ores.platin_block": "Platin Block",
+  "block.extra_ores.platinium_block": "Platinium Block",
+  "block.extra_ores.platin_ore": "Platin Ore",
+  "block.extra_ores.deepslate_platin_ore": "Deepslate Platin Ore",
+
+  "item.extra_ores.platin_sword": "Platin Sword",
+  "item.extra_ores.platin_pickaxe": "Platin Pickaxe",
+  "item.extra_ores.platin_axe": "Platin Axe",
+  "item.extra_ores.platin_shovel": "Platin Shovel",
+  "item.extra_ores.platin_hoe": "Platin Hoe",
+  "item.extra_ores.platin_helmet": "Platin Helmet",
+  "item.extra_ores.platin_chestplate": "Platin Chestplate",
+  "item.extra_ores.platin_leggings": "Platin Leggings",
+  "item.extra_ores.platin_boots": "Platin Boots",
 
   "item.extra_ores.platinium_sword": "Platinium Sword",
+  "item.extra_ores.platinium_pickaxe": "Platinium Pickaxe",
   "item.extra_ores.platinium_axe": "Platinium Axe",
   "item.extra_ores.platinium_shovel": "Platinium Shovel",
-  "item.extra_ores.platinium_pickaxe": "Platinium Pickaxe",
   "item.extra_ores.platinium_hoe": "Platinium Hoe",
   "item.extra_ores.platinium_helmet": "Platinium Helmet",
   "item.extra_ores.platinium_chestplate": "Platinium Chestplate",
   "item.extra_ores.platinium_leggings": "Platinium Leggings",
   "item.extra_ores.platinium_boots": "Platinium Boots",
-
-  "item.extra_ores.platinium_ingot": "Platinium Ingot",
-  "item.extra_ores.platinium_component": "Platinium Component",
-
-  "item.extra_ores.platin_pickaxe": "Platin Pickaxe",
-
-  "block.extra_ores.platin_ore": "Platin Ore",
-  "block.extra_ores.deepslate_platin_ore": "Deepslate Platin Ore",
-  "block.extra_ores.platin_block": "Platin Block",
-  "block.extra_ores.platinium_block": "Platinium Block",
 
   "creativetab.eo_tab": "Extra Ores"
 }

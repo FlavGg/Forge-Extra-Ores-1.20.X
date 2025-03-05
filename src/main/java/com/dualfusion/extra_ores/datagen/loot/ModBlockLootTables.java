@@ -23,9 +23,12 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
+
+        // BLOCKS :
         this.dropSelf(ModBlocks.PLATIN_BLOCK.get());
         this.dropSelf(ModBlocks.PLATINIUM_BLOCK.get());
 
+        // ORES :
         this.add(ModBlocks.PLATIN_ORE.get(),
                 block -> oreDrops(ModBlocks.PLATIN_ORE.get(), ModItems.RAW_PLATIN.get()));
         this.add(ModBlocks.DEEPSLATE_PLATIN_ORE.get(),

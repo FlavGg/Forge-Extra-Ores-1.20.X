@@ -10,8 +10,16 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
+
+    // PLATIN MATERIALS
+    PLATIN("platin", 20, new int[]{ 3, 6, 5, 3 }, 9,
+            SoundEvents.ARMOR_EQUIP_DIAMOND, 0f, 0f, () -> Ingredient.of(ModItems.PLATIN_INGOT.get())),
+
+    // PLATINIUM MATERIALS :
     PLATINIUM("platinium", 26, new int[]{ 4, 9, 7, 4 }, 25,
             SoundEvents.ARMOR_EQUIP_DIAMOND, 3f, 0.1f, () -> Ingredient.of(ModItems.PLATINIUM_INGOT.get()));
+
+
 
     private final String name;
     private final int durabilityMultiplier;

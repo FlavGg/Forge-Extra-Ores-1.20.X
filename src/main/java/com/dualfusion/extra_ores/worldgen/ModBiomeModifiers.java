@@ -13,6 +13,8 @@ import net.minecraftforge.common.world.ForgeBiomeModifiers;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class ModBiomeModifiers {
+
+    // PLATIN ORE GENERATION
     public static final ResourceKey<BiomeModifier> ADD_PLATIN_ORE = registerKey("add_platin_ore");
 
     public static void bootstrap(BootstapContext<BiomeModifier> context) {

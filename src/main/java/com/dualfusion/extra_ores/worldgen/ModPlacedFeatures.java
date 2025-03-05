@@ -24,6 +24,7 @@ public class ModPlacedFeatures {
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
+        // PLATINIUM GENERATION
         register(context, PLATIN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_PLATIN_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(5,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(10))));

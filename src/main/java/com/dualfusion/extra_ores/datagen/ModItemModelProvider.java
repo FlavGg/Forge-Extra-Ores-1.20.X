@@ -42,28 +42,49 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+
+        // PLATIN ITEMS :
         simpleItem(ModItems.PLATIN_INGOT);
-        simpleItem(ModItems.RAW_PLATIN);
         simpleItem(ModItems.PLATIN_NUGGET);
-        simpleItem(ModItems.PLATIN_INGOT);
+        simpleItem(ModItems.RAW_PLATIN);
 
-        handheldItem(ModItems.PLATIN_PICKAXE);
-
+        // PLATINIUM ITEMS :
         simpleItem(ModItems.PLATINIUM_INGOT);
+        simpleItem(ModItems.PLATINIUM_NUGGET);
         simpleItem(ModItems.PLATINIUM_COMPONENT);
 
+        // BLOCKS + ORE :
+        evenSimplerBlockItem(ModBlocks.PLATIN_BLOCK);
+        evenSimplerBlockItem(ModBlocks.PLATINIUM_BLOCK);
+        evenSimplerBlockItem(ModBlocks.PLATIN_ORE);
+        evenSimplerBlockItem(ModBlocks.DEEPSLATE_PLATIN_ORE);
+
+        // PLATIN GEARS :
+        handheldItem(ModItems.PLATIN_SWORD);
+        handheldItem(ModItems.PLATIN_PICKAXE);
+        handheldItem(ModItems.PLATIN_AXE);
+        handheldItem(ModItems.PLATIN_SHOVEL);
+        handheldItem(ModItems.PLATIN_HOE);
+
+        trimmedArmorItem(ModItems.PLATIN_CHESTPLATE);
+        trimmedArmorItem(ModItems.PLATIN_HELMET);
+        trimmedArmorItem(ModItems.PLATIN_LEGGINGS);
+        trimmedArmorItem(ModItems.PLATIN_BOOTS);
+
+        // PLATINIUM GEARS :
         handheldItem(ModItems.PLATINIUM_SWORD);
         handheldItem(ModItems.PLATINIUM_PICKAXE);
         handheldItem(ModItems.PLATINIUM_AXE);
         handheldItem(ModItems.PLATINIUM_SHOVEL);
         handheldItem(ModItems.PLATINIUM_HOE);
 
-        evenSimplerBlockItem(ModBlocks.PLATIN_BLOCK);
-        evenSimplerBlockItem(ModBlocks.PLATINIUM_BLOCK);
-        evenSimplerBlockItem(ModBlocks.PLATIN_ORE);
-        evenSimplerBlockItem(ModBlocks.DEEPSLATE_PLATIN_ORE);
+        trimmedArmorItem(ModItems.PLATINIUM_CHESTPLATE);
+        trimmedArmorItem(ModItems.PLATINIUM_HELMET);
+        trimmedArmorItem(ModItems.PLATINIUM_LEGGINGS);
+        trimmedArmorItem(ModItems.PLATINIUM_BOOTS);
 
     }
+
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {
         final String MOD_ID = Extra_Ores.MOD_ID; // Change this to your mod id
 

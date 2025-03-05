@@ -24,6 +24,8 @@ public class ModConfiguredFeatures {
         RuleTest stoneReplacables = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepslateReplacables = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
+
+        // PLATINIUM GENERATION
         List<OreConfiguration.TargetBlockState> overworldPlatinOres = List.of(OreConfiguration.target(stoneReplacables,
                 ModBlocks.PLATIN_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplacables, ModBlocks.DEEPSLATE_PLATIN_ORE.get().defaultBlockState()));
